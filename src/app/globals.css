@@ -1,0 +1,28 @@
+/* globals.css */
+
+/* Reset global */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove estilos padrão do body */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Opcional: remove estilos de listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Opcional: remove sublinhado e cor padrão de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
