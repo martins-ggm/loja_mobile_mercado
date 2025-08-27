@@ -1,66 +1,64 @@
-.header{
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  background-color: #3632f8;
+}
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 10vh;
-    background-color: #3632F8;
-   
-    
+.searchField {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 85%;
+  margin-left: 20px;
+}
+
+.logoField {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 10%;
+  margin-left: 20px;
+}
+
+.headerButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 20%;
+  gap: 2%;
+  margin-right: 20px;
 
 }
 
-
-.searchField{
-    
-    text-align: center;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    height: 100%;
-    width: 70%;
-    margin-left: 20px;
-    
-
-
+.singinButton {
+  height: 35%;
+  width: 30%;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: white;
 }
 
-.logoField{
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 10%;
-
-
-
-
+.singupButton {
+  height: 35%;
+  width: 60%;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: white;
 }
 
-
-.headerButtons{
-
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 20%;
-    gap: 10px;
-
-
-}
-
-.searchBar{
-
-
-    display: flex;
-    width: 25%;
-    height: 30%;
-    border-radius: 5px;
-    
-
+.searchBar {
+  display: flex;
+  width: 25%;
+  height: 30%;
+  border-radius: 5px;
 }

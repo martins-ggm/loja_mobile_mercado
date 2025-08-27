@@ -6,11 +6,12 @@ const Header: React.FC = () => {
     <header className={styles.header}>
       <h1 className={styles.logoField}>&quot;Cabeçalho&quot;</h1>
       <div className={styles.searchField}>
-        <input type="text" className={styles.searchBar} />
+        <label htmlFor="search">Encontre os produtos que busca:</label>
+        <input name="search" type="text" className={styles.searchBar} />
       </div>
       <div className={styles.headerButtons}>
-        <button>entrar</button> 
-        <button>criar conta</button>
+        <button className={styles.singinButton}>entrar</button> 
+        <button className={styles.singupButton}>criar conta</button>
       </div>
     </header>
   );
