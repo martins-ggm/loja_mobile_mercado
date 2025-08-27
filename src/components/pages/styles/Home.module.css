@@ -1,7 +1,8 @@
 /* Este arquivo agora é apenas para estilos específicos da página Home se necessário */
 
 .homeContainer {
-
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }

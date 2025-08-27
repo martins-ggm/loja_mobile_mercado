@@ -1,5 +1,40 @@
 .header{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 20vh;
+    height: 10vh;
     background-color: #3632F8;
+   
+    
+
+}
+
+
+.searchField{
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+
+
+
+}
+
+.logoField{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 10%;
+
+
+
+
 }
