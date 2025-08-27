@@ -16,11 +16,12 @@
     
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     height: 100%;
-    width: 90%;
-
+    width: 70%;
+    margin-left: 20px;
+    
 
 
 }
@@ -36,5 +37,30 @@
 
 
 
+
+}
+
+
+.headerButtons{
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+    gap: 10px;
+
+
+}
+
+.searchBar{
+
+
+    display: flex;
+    width: 25%;
+    height: 30%;
+    border-radius: 5px;
+    
 
 }
