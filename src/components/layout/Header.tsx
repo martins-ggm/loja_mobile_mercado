@@ -9,7 +9,10 @@ const Header: React.FC = () => {
       </div>
       <div className={styles.searchField}>
         <label htmlFor="search">Encontre os produtos que busca:</label>
-        <input name="search" type="text" className={styles.searchBar} />
+        <div className={styles.inputField}>
+          <input name="search" type="text" className={styles.searchBar} />
+          <button className={styles.searchButton}> busca </button>
+        </div>
       </div>
       <div className={styles.headerButtons}>
         <button className={styles.singinButton}>entrar</button>
