@@ -33,37 +33,37 @@
 }
 
 .searchBar {
-  flex-grow: 1; 
+  flex-grow: 1;
   height: 100%;
   border: none;
   outline: none;
-  padding: 0 10px; 
+  padding: 0 10px;
   background: transparent;
 }
 
 .inputField {
   display: flex;
-  align-items: center; 
-  width: 35%; 
+  align-items: center;
+  width: 35%;
   height: 35%;
-  position: relative; 
-  border-radius: 5px;
+  position: relative;
+  border-radius: 7px;
   background-color: white;
   overflow: hidden;
 }
 
-.searchButton{
+.searchButton {
   display: flex;
   height: 100%;
   width: 15%;
   text-align: center;
   justify-content: center;
   align-items: center;
-  background: greenyellow;
+  background: #e8fd43;
   outline: none;
   border: none;
-  border-radius: 5px;
-
+  border-radius: 7px;
+  cursor: pointer;
 }
 
 .headerButtons {
@@ -80,18 +80,20 @@
   margin-top: 25px;
   height: 35%;
   width: 30%;
-  border-radius: 5px;
+  border-radius: 7px;
   outline: none;
   border: none;
   background: white;
+  cursor: pointer;
 }
 
 .singupButton {
   margin-top: 25px;
   height: 35%;
   width: 60%;
-  border-radius: 5px;
+  border-radius: 7px;
   outline: none;
   border: none;
   background: white;
+  cursor: pointer;
 }
